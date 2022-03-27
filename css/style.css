@@ -6,14 +6,13 @@
 .topo {
   height: 150px;
   width: 100%;
-  background-color: #494949;
+  
 }
 body {
   font-family: "montserrat", sans-serif;
   height: 100vh;
   display: grid;
-  
-  background-color: #2e2e2e;
+    background-color: #3a3e72;
 }
 a {
   color: #c7c7c7;
@@ -28,7 +27,7 @@ a::before {
   margin-top: -4px;
   content: "";
   inset: 0;
-  background: #ffd310;
+  background: #e0c007;
   position: absolute;
   transform: scaleX(0);
   transform-origin: right;
@@ -40,10 +39,11 @@ a:hover::before {
   margin-top: -4px;
   transform: scaleX(1);
   transform-origin: left;
-  background: #313783;
+  background: #000000;
+ 
 }
 a:hover {
-  color: #000000;
+  color: #ffffff;
 }
 #menu-h ul li {
   
@@ -60,4 +60,12 @@ ul {
     height: 30px;
     
   }
- 
+ p {
+   margin-top: -630px;
+   text-align: center;
+   color: aliceblue;
+   font-size: 25px;;
+   font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 2px;
+   
+ }
