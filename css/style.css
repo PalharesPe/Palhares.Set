@@ -3,25 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+.topo {
+  height: 150px;
+  width: 100%;
+  background-color: #494949;
+}
 body {
   font-family: "montserrat", sans-serif;
   height: 100vh;
   display: grid;
-  place-content: center;
+  
   background-color: #2e2e2e;
 }
 a {
-  color: #000000;
+  color: #c7c7c7;
   position: relative;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 20px;
   z-index: 0;
 }
 /*Efeito*/
 a::before {
+  height: 30px;
+  margin-top: -4px;
   content: "";
   inset: 0;
-  background: #313783;
+  background: #ffd310;
   position: absolute;
   transform: scaleX(0);
   transform-origin: right;
@@ -29,14 +36,28 @@ a::before {
   z-index: -1;
 }
 a:hover::before {
+  height: 30px;
+  margin-top: -4px;
   transform: scaleX(1);
   transform-origin: left;
-  background: #000000;
+  background: #313783;
 }
 a:hover {
-  color: #ffffff;
+  color: #000000;
 }
 #menu-h ul li {
-  margin: 4px;
+  
+  margin: 5px;
   display: inline;
+  
 }
+ul {
+  text-align: center;
+    padding: 4px;
+    margin-bottom: 777px;     
+    background-color: #597ca4;    
+    width: 100%;
+    height: 30px;
+    
+  }
+ 
