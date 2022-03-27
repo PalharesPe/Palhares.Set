@@ -10,47 +10,29 @@
   width: 100%;
   
 }
-body {
+ body {
   font-family: "montserrat", sans-serif;
   width: 100%;
   height: auto;
-  display: grid;
-  background-color: #3a3e72;
+  
+  background-color: #597ca4;
     
 }
 a {
-  color: #c7c7c7;
-  position: relative;
+  text-align: center;
+  color: #ffffff;
+  /*position: relative;*/
   text-decoration: none;
-  font-size: 20px;
-  z-index: 0;
+  font-size: 20px;  
 }
-/*Efeito*/
-a::before {
-  height: 30px;
-  margin-top: -4px;
-  content: "";
-  inset: 0;
-  background: #4c5392;
-  position: absolute;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s ease-in-out;
-  z-index: -1;
+h4 {
+  color: white;
+  margin-top: 1px;
+  margin-bottom: 9px;
+  text-align: center;
 }
-a:hover::before {
-  height: 30px;
-  margin-top: -4px;
-  transform: scaleX(1);
-  transform-origin: left;
-  background: #e6e6e6;
- 
-}
-a:hover {
-  color: #1d1d1d;
-}
+
 #menu-h ul li {
-  
   margin: 5px;
   display: inline;
   
@@ -59,7 +41,7 @@ ul {
   text-align: center;
     padding: 4px;
     margin-bottom: 100%;     
-    background-color: #597ca4;    
+    background-color: #5f86b3;    
     width: 100%;
     height: 30px;
     
@@ -73,59 +55,20 @@ ul {
    letter-spacing: 2px;
    
  }
- @media screen and (max-width: 500px) {
-  #menu-h ul li {
-  
-    margin: 2px;
-    display: inline;
-    
-  }
-  a {
-  color: #c7c7c7;
-  position: relative;
-  text-decoration: none;
-  font-size: 9px;
-  z-index: 0;
- }
- .topo{
-  text-align: center;
-  background-image: linear-gradient(to right, #9dbbea , #597ca4 , #9dbbea);
-  height: 100px;
-  width: 100%;
- }
- img {
-   text-align: center;
-   width: 53%;
-   height: auto;
- }
- ul {
-  text-align: center;
-    padding: 4px;
-    margin-bottom: 100%;     
-    background-color: #597ca4;    
-    width: 100%;
-    height: 30px;
-    
-  }
-  a::before {
-    height: 30px;
-    margin-top: -4px;
-    content: "";
-    inset: 0;
-    background: #4c5392;
-    position: absolute;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.3s ease-in-out;
-    z-index: -1;
-  }
-  a:hover::before {
-    height: 30px;
-    margin-top: -4px;
-    transform: scaleX(1);
-    transform-origin: left;
-    background: #e6e6e6;
-   
-  }
-}
+ /* RESPONSIVO*/
+
+
  
+ 
+/*Pagina Portifolio*/
+
+#doc1 {
+  
+  display: inline;
+  margin-left: 500px;
+}
+#doc2 {
+  display: inline;
+  margin-left: 499px;
+}
+
