@@ -63,12 +63,9 @@ ul {
 /*Pagina Portifolio*/
 
 #doc1 {
-  
+  margin-bottom: 500px;
   display: inline;
   margin-left: 500px;
 }
-#doc2 {
-  display: inline;
-  margin-left: 499px;
-}
+
 
