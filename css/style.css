@@ -130,7 +130,7 @@ a {
     }    
     .login {
         border-radius: 0px 0px 0px 0px;
-        margin-left: 15%;
+        margin-left: 17%;
         
         padding-top: 80px;
         width: 300px;
@@ -184,7 +184,7 @@ div {
 }
 
 /*-------Responsive 200px---------*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 200px) {
     .redes{  
         height: 60px;      
         width: auto;
